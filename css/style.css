@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    height: 100vh;
+    color: white;
+}
+
+.wrapper > * {
+    flex: 3 100%;
+}
+
+.header {
+    background: tomato;
+    flex: 1 0px;
+
+}
+
+.footer {
+    background-color: mediumpurple;
+    flex: 1 0px;
+
+}
+
+.main {
+    text-align: center;
+    background: deepskyblue;
+}
+
+.aside-1 {
+    background: green;
+}
+
+.aside-2 {
+    background-color: pink;
+}
+
